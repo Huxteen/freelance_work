@@ -47,7 +47,7 @@ h4 {
 }
 
 a {
-    color: #00bf6f;
+    color: #007cb4;
     -webkit-transition: color 300ms, background-color 300ms;
     transition: color 300ms, background-color 300ms;
 }
@@ -55,7 +55,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #00bf6f;
+    color: #007cb4;
 }
 
 hr {
@@ -65,7 +65,7 @@ hr {
 
 .btn-primary {
     padding: 8px 20px;
-    background: #00bf6f;
+    background: #007cb4;
     color: #fff;
     border-radius: 4px;
     border: none;
@@ -75,7 +75,7 @@ hr {
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:focus {
-    background: #00bf6f;
+    background: #007cb4;
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -195,8 +195,8 @@ body>section {
 
 .top-bar {
     padding: 10px 0;
-    background: #191919;
-    border-bottom: 1px solid #222;
+    background: #f8f8f8;
+    border-bottom: 0px solid #222;
     line-height: 28px;
 }
 
@@ -235,7 +235,7 @@ ul.social-share li a {
 }
 
 ul.social-share li a:hover {
-    background: #00bf6f;
+    background: #007cb4;
     color: #fff;
 }
 
@@ -267,24 +267,24 @@ input.search-form:hover {
 
 .navbar-brand {
     padding: 0;
-    margin: 0;
+    margin-top: -6px;
 }
 
 .navbar {
     border-radius: 0;
     margin-bottom: 0;
     background: #fff;
-    padding: 15px 0;
+    padding: 12px 0;
     padding-bottom: 0;
 }
 
 .navbar-nav {
-    margin-top: 12px;
+    margin-top: 0px;
 }
 
 .navbar-nav>li {
-    margin-left: 35px;
-    padding-bottom: 28px;
+    margin-left: 2px;
+    padding-bottom: 10px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -304,7 +304,7 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav>li>a:active {
    border-bottom: 2px solid #fff;
    border-top: 2px solid #fff;
-    color: #00bf6f;
+    color: #007cb4;
 }
 .navbar-inverse {
     border: none;
@@ -312,7 +312,7 @@ input.search-form:hover {
 
 .navbar-inverse .navbar-brand {
     font-size: 36px;
-    line-height: 50px;
+    line-height: 44px;
     color: #fff;
 }
 
@@ -325,7 +325,33 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav>.open>a:active,
 .navbar-inverse .navbar-nav>.open>a:focus {
     background-color: #fff;
-    color: #00bf6f;
+    color: #007cb4;
+}
+
+.post-a-job, 
+.post-a-job>a:hover, 
+.post-a-job>a:focus, 
+.post-a-job>a:active{
+    background-color: #007cb4 !important;
+    color: #fff !important;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+    border-radius: 4px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-size: 12px !important; 
+}
+.post-a-task,
+.post-a-task>a:hover, 
+.post-a-task>a:focus, 
+.post-a-task>a:active
+{
+    background-color: #000 !important;
+    color: #fff !important;
+    border-radius: 4px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-size: 12px !important; 
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu {
@@ -353,7 +379,7 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav .dropdown-menu>li:hover>a,
 .navbar-inverse .navbar-nav .dropdown-menu>li:focus>a,
 .navbar-inverse .navbar-nav .dropdown-menu>li.active>a {
-    background-color: #00bf6f;
+    background-color: #007cb4;
     color: #fff;
 }
 
@@ -406,14 +432,14 @@ input.search-form:hover {
 #main-slider .carousel .btn-slide {
     padding: 0 30px;
     line-height: 42px;
-    background: #00bf6f;
+    background: #007cb4;
     color: #fff;
     border-radius: 4px;
     margin-top: 40px;
     display: inline-block;
     font-size: 14px;
     margin-right: 10px;
-    border: 1px solid #00bf6f;
+    border: 1px solid #007cb4;
 }
 
 #main-slider .carousel .btn-slide.white {
@@ -468,7 +494,7 @@ input.search-form:hover {
 #main-slider .next {
     position: absolute;
     top: 50%;
-    /* background-color: #00bf6f; */
+    /* background-color: #007cb4; */
     background-color: transparent;
     border: 1px solid #fff;
     color: #fff;
@@ -515,8 +541,8 @@ input.search-form:hover {
 }
 
 #main-slider .carousel-indicators li.active {
-    background-color: #00bf6f;
-    border: 1px solid #00bf6f
+    background-color: #007cb4;
+    border: 1px solid #007cb4
 }
 
 #main-slider .active .animation.animated-item-1 {
@@ -563,8 +589,8 @@ input.search-form:hover {
 
 .features .feature-wrap:hover .icon {
     color: #ffffff;
-    border: 1px solid #00bf6f;
-    background-color: #00bf6f;
+    border: 1px solid #007cb4;
+    background-color: #007cb4;
 }
 
 .features .feature-wrap h2 {
@@ -642,7 +668,7 @@ input.search-form:hover {
     color: #fff;
     height: 50px;
     width: 50px;
-    background-color: #00bf6f;
+    background-color: #007cb4;
     border-radius: 50%;
     display: inline-block;
     line-height: 50px;
@@ -895,12 +921,12 @@ a.accordion-toggle i {
 }
 
 .panel-heading.active a.accordion-toggle i {
-    background: #00bf6f;
+    background: #007cb4;
     color: #fff;
 }
 
 .panel-heading.active a.accordion-toggle.collapsed i {
-    background: #00bf6f;
+    background: #007cb4;
     color: #fff;
 }
 
@@ -912,7 +938,7 @@ a.accordion-toggle i {
 #content .nav-tabs>li.active>a,
 #content .nav-tabs>li.active>a:hover,
 #content .nav-tabs>li.active>a:focus {
-    color: #00bf6f;
+    color: #007cb4;
     background-color: #F9FAFB;
     border: 1px solid #E9EFF4;
     font-weight: 500;
@@ -933,7 +959,7 @@ a.accordion-toggle i {
     position: absolute;
     width: 80px;
     height: 80px;
-    background-color: #00bf6f;
+    background-color: #007cb4;
     top: 50%;
     left: 50%;
     color: #fff;
@@ -1015,10 +1041,10 @@ a.accordion-toggle i {
     display: inline-block;
     margin: 0 5px;
     border-radius: 50%;
-    border: 1px solid #00bf6f;
+    border: 1px solid #007cb4;
 }
 .testimonial-slider .owl-dot.active{
-    background-color: #00bf6f;
+    background-color: #007cb4;
 }
 
 /*************************
@@ -1092,7 +1118,7 @@ a.accordion-toggle i {
 }
 
 .single-team .team-social a:hover{
-    color: #00bf6f;
+    color: #007cb4;
 }
 
 
@@ -1133,7 +1159,7 @@ a.accordion-toggle i {
 }
 
 .request h4 a {
-    background: #00bf6f;
+    background: #007cb4;
     color: #fff;
     font-size: 14px;
     font-weight: normal;
@@ -1142,7 +1168,7 @@ a.accordion-toggle i {
 }
 
 .request h4:after {
-    border-color: #00bf6f transparent transparent;
+    border-color: #007cb4 transparent transparent;
     border-style: solid;
     border-width: 12px;
     bottom: -18px;
@@ -1154,7 +1180,7 @@ a.accordion-toggle i {
 }
 
 .request h4:before {
-    border-color: #00bf6f transparent transparent;
+    border-color: #007cb4 transparent transparent;
     border-style: solid;
     border-width: 12px;
     bottom: -18px;
@@ -1187,7 +1213,7 @@ a.accordion-toggle i {
 
 #footer {
     background: none repeat scroll 0 0 #2E2E2E;
-    border-top: 5px solid #00bf6f;
+    border-top: 5px solid #007cb4;
     height: 84px;
     margin-top: 120px;
 }
@@ -1241,8 +1267,8 @@ a.accordion-toggle i {
 .portfolio-filter>li a:hover,
 .portfolio-filter>li a.active {
     color: #fff;
-    background: #00bf6f;
-    border: 1px solid #00bf6f;
+    background: #007cb4;
+    border: 1px solid #007cb4;
     box-shadow: none;
     -webkit-box-shadow: none;
 }
@@ -1391,7 +1417,7 @@ section.pricing{
 }
 
 .single-pricing.featured a{
-    background-color: #00bf6f;
+    background-color: #007cb4;
     color: #fff;
 }
 
@@ -1524,12 +1550,12 @@ aside .widget {
 }
 
 .blog_category li a:hover {
-    background: #00bf6f;
+    background: #007cb4;
     color: #fff;
 }
 
 .badge:before {
-    border-color: transparent transparent transparent #00bf6f;
+    border-color: transparent transparent transparent #007cb4;
     border-style: solid;
     border-width: 10px;
     bottom: -8px;
@@ -1541,7 +1567,7 @@ aside .widget {
 }
 
 .badge {
-    background-color: #00bf6f;
+    background-color: #007cb4;
     border-radius: 5px;
     color: #fff;
     padding: 8px;
@@ -1723,7 +1749,7 @@ ul.faq li>div h3 {
 }
 
 .publish_date {
-    background: #00bf6f;
+    background: #007cb4;
     border-bottom: 5px solid #4e4e4e;
     color: #fff;
     padding: 5px 0;
@@ -1766,7 +1792,7 @@ ul.pagination>li>a i {
 
 ul.pagination>li.active>a,
 ul.pagination>li:hover>a {
-    background-color: #00bf6f ;
+    background-color: #007cb4 ;
     color: #fff;
 }
 
@@ -1781,7 +1807,7 @@ ul.pagination>li:last-child > a{
 ul.pagination>li:first-child > a:hover, 
 ul.pagination>li:last-child > a:hover{
     background-color: transparent;
-    color: #00bf6f;
+    color: #007cb4;
 }
 
 
@@ -1817,7 +1843,7 @@ ul.pagination>li:last-child > a{
     background-color: transparent;
 }
 .widget.search form button i{
-    color: #00bf6f;
+    color: #007cb4;
 }
 
 .form-control:focus {
@@ -1847,7 +1873,7 @@ ul.sidebar-gallery {
 }
 
 .tag-cloud li a:hover {
-    background: #00bf6f;
+    background: #007cb4;
     color: #fff;
 }
 
@@ -1902,7 +1928,7 @@ ul.sidebar-gallery{
 }
 
 .widget.social_icon a:hover{
-    background-color: #00bf6f;
+    background-color: #007cb4;
     color: #fff;
 }
 
@@ -1922,7 +1948,7 @@ ul.sidebar-gallery{
     color: #989898;
 }
 .post-meta p i{
-    color: #00bf6f;
+    color: #007cb4;
 }
 .post-meta p a{
     color: #989898;
@@ -1930,7 +1956,7 @@ ul.sidebar-gallery{
     transition: .4s;
 }
 .post-meta p a:hover{
-    color: #00bf6f;
+    color: #007cb4;
 }
 .post-meta p a.fa{
     padding: 0 6px;
@@ -1961,7 +1987,7 @@ ul.sidebar-gallery{
 }
 
 .inner-meta .social-btns a{
-    background-color: #00bf6f;
+    background-color: #007cb4;
     color: #fff;
     display: inline-block;
     line-height: 30px;
@@ -2043,7 +2069,7 @@ ul.sidebar-gallery{
 }
 
 .comment-count a:last-child i{
-    color: #00bf6f;
+    color: #007cb4;
 }
 
 .comments .single-comment .comment-content h5{
@@ -2076,7 +2102,7 @@ ul.sidebar-gallery{
     border: none;
     line-height: 42px;
     padding: 0 35px;
-    background-color: #00bf6f;
+    background-color: #007cb4;
     border-radius: 3px;
     margin-left: auto;
     margin-top: 15px;
@@ -2159,7 +2185,7 @@ shortcodes page css
 }
 #bottom {
     background: #f5f5f5;
-    border-bottom: 5px solid #00bf6f;
+    border-bottom: 5px solid #007cb4;
     font-size: 14px;
 }
 
@@ -2189,7 +2215,7 @@ shortcodes page css
 }
 
 #bottom ul li a:hover {
-    color: #00bf6f;
+    color: #007cb4;
 }
 
 #bottom .widget {
@@ -2210,7 +2236,7 @@ shortcodes page css
 }
 
 #footer a:hover {
-    color: #00bf6f;
+    color: #007cb4;
 }
 
 #footer ul {

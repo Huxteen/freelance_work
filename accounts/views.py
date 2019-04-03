@@ -51,14 +51,11 @@ def signup(request):
                 user = User.objects.create_user(
                     email=(form.cleaned_data['email']).casefold(),
                     password=form.cleaned_data['password1'],
-                    first_name=form.cleaned_data['first_name'],
-                    last_name=form.cleaned_data['last_name'],
-                    is_staff=int(request.POST['is_staff']),
                 )                
-                auth.login(request, user)
-                return redirect('dashboard')
-                # messages.success(request, 'Account creation was successful. Please, login to dashboard')
-                # return redirect('login')
+                # auth.login(request, user)
+                # return redirect('dashboard')
+                messages.success(request, 'Account creation was successful. Please, login to dashboard')
+                return redirect('login')
             else:
                 # Form has error relay the error to the user
                 context = {'form':form}

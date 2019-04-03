@@ -67,7 +67,7 @@
     content: '';
     width: 12px;
     height: 12px;
-    background: #00bf6f;
+    background: #007cb4;
     position: absolute;
     top: 3px;
     left: 3px;
@@ -132,12 +132,12 @@
 /* The Dashboard Green Background Color: */
 .deviceSectionG{
   /* border: 1px solid #0bb70b;  */
-  border: 1px solid #00bf6f; 
-  background: #00bf6f;
+  border: 1px solid #007cb4; 
+  background: #007cb4;
   color: #fff;
 }.deviceSectionIconG{
   background: #f8f8f8; 
-  color: #00bf6f; 
+  color: #007cb4; 
 }.secondPG{
   font-size: 25px;
   color: #fff;
@@ -154,12 +154,12 @@
 }
 /* The Dashboard Red Background Color: */
 .deviceSectionB{
-  border: 1px solid #1c89aa;  
-  background: #1c89aa;
+  border: 1px solid #007cb4;  
+  background: #007cb4;
   color: #fff;
 }.deviceSectionIconB{
   background: #f8f8f8; 
-  color: #1c89aa; 
+  color: #007cb4; 
 }
 /* Device List */
 .deviceList{
@@ -223,18 +223,30 @@
 }
 
 
+/* Terms of service */
+.term_of_service{
+  color: #007cb4;
+  font-weight: 600;
+}.custom-checkbox > label{
+  font-weight: 500;
+}.custom-checkbox{
+  margin-top: 1px;
+}.primary-color{
+  color: #007cb4;
+}
+
 
 /* style about section */
 /* #good-health-about{
   margin-bottom: 100px;
 } */
 .about-first-good-health{
-  background: #00bf6f;
+  background: #007cb4;
   color: #fff;
   padding-top: 180px;
   padding-bottom: 180px;
 }.about-second-good-health{
-  background: #1c89aa;
+  background: #007cb4;
   color: #fff;
    padding-top: 180px;
   padding-bottom: 180px;
@@ -248,7 +260,7 @@
 #about-you-btn:hover,
 #about-you-btn:active {
   background-color: #fff;
-  color: #00bf6f;
+  color: #007cb4;
   font-weight: 600;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -260,7 +272,7 @@
 #about-family-button:hover,
 #about-family-button:active {
   background-color: #fff;
-  color: #1c89aa;
+  color: #007cb4;
   font-weight: 600;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -268,19 +280,22 @@
   margin-top: 20px;
 
 }.primary-color{
-  color: #00bf6f !important;
+  color: #007cb4 !important;
 }.secondary-color{
-  color: #1c89aa !important;
+  color: #007cb4 !important;
 }
 
 
 
 /* Design for sign up, login, and create medical report container */
-.sign-up-container, .login-container{
-  padding-bottom: 30px;
+.margin-top-50{
   margin-top: 50px;
+}
+.sign-up-container, .login-container{
+  /* padding-bottom: 30px; */
+  /* margin-top: 50px; */
 }.sign-up-title, .login-title{
-  background: #00bf6f;
+  background: #007cb4;
   color: #fff;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -291,6 +306,76 @@
   font-weight: 600;
 }.sign-up-form, .login-form{
   margin-top: 15px !important;
+}
+
+
+/* Sign up caption two */
+.sign-up-caption{
+  font-size: 25px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}.underliner{
+  padding-top: 3px;
+  background: #007cb4;
+  width: 10%;
+  margin-top: 20px;
+  
+}.already-have-an-account{
+  margin-top: 30px;
+}.margin-top-15{
+  margin-top: 15px;
+}.float-right{
+  float:right;
+  cursor: pointer;
+}.p-color{
+  color: #666 !important;
+}.top-bg{
+  background: #f8f8f8 !important;
+}.p-color2{
+  color: #eee !important;
+}.search-now{
+  border: 1px solid #fff; 
+  margin:0px; 
+  padding:7px;
+}.home-search{
+  background: #007cb4; 
+  padding: 15px;
+}.no-of-job{
+  margin:0px; 
+  padding: 7px 12px;
+  font-size: 11px;
+}.container-for-no-of-jobs-one h5{
+  margin-top: 270px;
+  color: #fff;
+}.container-for-no-of-jobs-one{
+  padding-bottom: 30px;
+}
+.bg-yellow{
+  background: #cccc00;
+}
+.bg-blue{
+  background: #00b8e6;
+}
+.bg-red{
+  background: #e6005c;
+}
+.bg-purple{
+  background: #6600cc;
+}
+.bg-orange{
+  background: #ff9900;
+}
+.bg-green{
+  background: #00cc00;
+}
+
+#no-of-jobs{
+  padding: 0px;
+}
+
+.section-pad-0{
+  background: #000;
+  color: #fff;
 }
 
 
@@ -316,10 +401,10 @@
 }.first-p-container small{
   color: #999;
 }.statistic-bg-green{
-  background: #00bf6f;
+  background: #007cb4;
   color: #fff;
 }.statistic-bg-blue{
-  background: #1c89aa;
+  background: #007cb4;
   color: #fff;
 }
 
@@ -395,3 +480,4 @@
 
 
 }
+

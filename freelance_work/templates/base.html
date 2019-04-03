@@ -6,9 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Augustine O.">
-     <meta name="description" content="We Are Good Health Saving Lives Using Technology." />
+     <meta name="description" content="Connecting skilled works and professionals" />
     <meta name="keywords" content="Saves, Health care, Hospitals, Doctors, Html, Business, Health, GoodHealth" />
-    <title>Good Health | Saving Lives Through Technology</title>
+    <title> Freelance Work | Connecting skilled works and professionals.</title>
 
     <!-- core CSS -->
     <link href="{% static 'assets/css/bootstrap.min.css' %}" rel="stylesheet">
@@ -24,12 +24,49 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
+    
    
 </head>
 <!--/head-->
 
 <body class="homepage">
     <header id="header">
+
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="top-number">
+                            <span class="p-color">Welcome to FreelanceWork</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="social">
+                            <ul class="social-share">
+                                <li ><a href="#" class="p-color top-bg"><i class="fa fa-envelope"></i></a></li>
+                                <li><a href="#" class="p-color top-bg"><i class="fa fa-bell"></i></a></li>
+                            </ul>
+                            <div class="search ">
+                                <form role="form">
+                                    <input type="text" style="border: 1px solid #f6f6f6;" class="search-form p-color " autocomplete="off" placeholder="Search">
+                                    <i class="fa fa-search p-color "></i>
+                                </form>
+                            </div>
+                            <ul class="social-share">&nbsp; &nbsp;
+                                <li style="cursor: pointer;"><a href="#" class="p-color2 top-bg"><i class="fa fa-circle" style="font-size: 23px;"></i> </a> John Doe <i class="fa fa-caret-down"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.container-->
+        </div>
+        <!--/.top-bar-->
+
+
+
+
+
         <nav class="navbar navbar-inverse" role="banner">
             <div class="container">
                 <div class="navbar-header">
@@ -40,38 +77,33 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="{% url 'home' %}">
-                        <!-- <img src="{% static 'assets/images/logo.png' %}" alt="logo"> -->
-                        <a class="navbar-brand" href="{% url 'home' %}"><i class="fas fa-thumbs-up" style="color: #1c89aa;"></i>&nbsp;<span style="color: #1c89aa;">Good</span><span style="color: #00bf6f;">Health</span></a>
+                        <a class="navbar-brand" href="{% url 'home' %}"><i class="fas fa-pencil" style="color: #1c89aa;"></i>&nbsp;<span style="color: #00bf6f;">lance</span><span style="color: #1c89aa;">Work</span></a>
                     </a>
                 </div>
 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">About Us</a></li>
-                        <li><a href="#">Our Solutions</a></li>
-                        <li><a href="#">Contacts</a></li>
-
-                        {% if user.is_authenticated %}
-
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dashboard &nbsp;<i class="fa fa-angle-down"></i></a>
+                        <li class="active" "><a href="#">Home</a></li>
+                        <li><a href="#">Find Jobs</a></li>
+                        <li><a href="#">Find Work</a></li>
+                        <li><a href="#">Find Companies</a></li>
+                        <li><a href="#">Find Professionals</a></li>
+                         {% comment %} <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages&nbsp;<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="{% url 'medical_statistics' %}">Dashboard</a></li>
-                                {% comment %}
-                                    I think Doctors get sick also they should be able to create and view their medical report also 
-                                {% endcomment %}
-                                <li><a href="{% url 'create_medical_report' %}">Create Medical Report</a></li>
-                                <li><a href="{% url 'my_medical_report' %}">My Medical Report</a></li>
-                                {% if user.is_staff %}
-                                    <li><a href="{% url 'all_medical_report' %}">Patients Medical Report</a></li>
-                                    <li><a href="#">Saved Report</a></li>
-                                {% endif %}                            
-                                <li><a href="{% url 'medical_statistics' %}">Medical Statistic</a></li>
+                                <li><a href="#">Web design</a></li>
+                                <li><a href="#">Web development</a></li>
+                                <li><a href="#">Graphics</a></li>
+                                <li><a href="#">Technician</a></li>
+                                <li><a href="#">Copy writing</a></li>
                             </ul>
-                        </li>
-                    
+                        </li> {% endcomment %}
+
+
+                    {% if user.is_authenticated %}
+
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{user.email}} &nbsp;<i class="fa fa-angle-down"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Profile&nbsp;<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Profile</a></li>
                                 <li><a href="#">Settings</a></li>
@@ -83,18 +115,21 @@
                             </form>
                         </li>
 
-                        {% else %}
+                    {% else %}
 
-                        <li class="dropdown">
+                       <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Accounts&nbsp;<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="{% url 'login' %}">Login</a></li>
                                 <li><a href="{% url 'signup' %}">Register</a></li>
                             </ul> 
-                        </li>
-                        
-                        {% endif %}
-            
+                        </li> 
+                       
+                    {% endif %}
+
+                        <li><a class="post-a-job" href="#">POST A JOB</a></li>
+                        <li><a class="post-a-task" href="#">POST A TASK</a></li>
+                    
                     </ul>
                 </div>
             </div>

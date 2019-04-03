@@ -4,8 +4,7 @@
 {% block content %}
 {% load static %}
 <div class="col-md-5 center-block mt-5 py-5 box-shadow sign-up-container">
-<div class="col-md-12 sign-up-title">SIGN UP TO LIFE</div>
-
+<div class="col-md-12 sign-up-caption text-center">Sign Up to Freelancework<p class="underliner center-block"><p></div>
 
     <!-- Django attribute to catch error or successful message dynamically -->
     {% if messages %}
@@ -37,44 +36,37 @@
 
     <form method="POST" action="{% url 'signup' %}" class="sign-up-form">
         {% csrf_token %}
-        <div class="row">
-            <div class="form-group col-md-6">
-                <label for="exampleInputFirstName">First Name</label>
-                <input type="text" class="form-control" name="first_name" placeholder="First Name" required="required">
-            </div>
-            <div class="form-group col-md-6">
-                <label for="exampleInputLastName">Last Name</label>
-                <input type="text" class="form-control" name="last_name" placeholder="Last Name" required="required">
-            </div>
-        </div>
+        
         <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
+            <label for="exampleInputEmail1">Email Address </label><sup class="sup">*</sup>
             <input type="email" name="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter Email Address"
                 required="required">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
 
         <div class="form-group">
-            <p>
-                <strong>Are you a medical practitional? &nbsp; &nbsp; </strong>
-                <input type="radio" id="radio_yes" name="is_staff" value="1" required="required">
-                <label for="radio_yes"><strong>Yes</strong></label> &nbsp; &nbsp; &nbsp; &nbsp;
+            <label for="exampleInputPassword1">Password</label><sup class="sup">*</sup>
+            <input type="password" class="form-control" name="password1" placeholder="Enter Password" required="required">
+        </div>
 
-                <input type="radio" id="radio_no" name="is_staff" value="0" required="required">
-                <label for="radio_no"><strong>No</strong></label> &nbsp; &nbsp; &nbsp; &nbsp;
-            </p>
+        <div class="form-group">
+            <label for="exampleInputPassword2">Confirm Password</label><sup class="sup">*</sup>
+            <input type="password" class="form-control" name="password2" placeholder="Confirm Password" required="required">
         </div>
-        <div class="row">
-            <div class="form-group col-md-6">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" name="password1" placeholder="Enter Password" required="required">
-            </div>
-            <div class="form-group col-md-6">
-                <label for="exampleInputPassword2">Confirm Password</label>
-                <input type="password" class="form-control" name="password2" placeholder="Confirm Password" required="required">
-            </div>
+  
+
+        <!-- Default checked -->
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="defaultChecked2">
+            <label class="custom-control-label" for="defaultChecked2"> &nbsp; &nbsp; I accept the <span class="term_of_service">Terms of Service</span></label>
         </div>
-        <button type="submit" class="btn btn-primary">SIGN UP</button>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary form-control">SIGN UP</button>
+        </div>
+
+        <div class="form-group text-center already-have-an-account">
+          <p>Already have an account? <strong class="primary-color">Sign in Now >></strong></p>
+        </div>
     </form>
 </div>
 {% endblock %}

@@ -1,0 +1,4 @@
+Development-Enviroment =  Visual Studio Code
+Python = 3.7.0
+Django = 2.0.7
+
