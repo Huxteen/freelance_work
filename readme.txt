@@ -1,10 +1,5 @@
 {% comment %} The Images used in this project are free stock photos {% endcomment %}
 
-slider 1:
-https://www.pexels.com/photo/person-using-black-blood-pressure-monitor-905874/
-
-slider 2:
-https://www.pexels.com/photo/person-holding-pen-and-life-insurance-paper-beside-macbook-pro-1289902/
 
 How To Use
 1. download the file(Zip, Github etc). 
