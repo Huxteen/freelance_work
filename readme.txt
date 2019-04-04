@@ -1,6 +1,17 @@
 {% comment %} The Images used in this project are free stock photos {% endcomment %}
 
 
+Technologies
+
+python (Django)
+HTML
+CSS
+BOOSTRAP
+JAVASCRIPT
+
+
+
+
 How To Use
 1. download the file(Zip, Github etc). 
 2. Extract if its in zip format.
