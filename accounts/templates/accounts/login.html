@@ -4,7 +4,7 @@
 {% block content %}
 {% load static %}
 
-<div class="container box-shadow margin-top-50 pad-md-0">
+<div class="container box-shadow margin-top-60 margin-bottom-60 pad-md-0">
 
 <div class="col-md-12 pad-md-0 login-container">
 <div class="col-md-5">
@@ -56,7 +56,7 @@
         </div>
 
          <div class="form-group already-have-an-account">
-            <p>Need an account? <strong class="primary-color">&nbsp;Join us Now >></strong> <strong><span class="float-right">Forget Password?</span></strong></p>
+            <p>Need an account? <a href="{% url 'signup' %}"><strong class="primary-color">&nbsp;Join us Now >></strong> </a> <strong><span class="float-right">Forget Password?</span></strong></p>
         </div>
     </form>
 

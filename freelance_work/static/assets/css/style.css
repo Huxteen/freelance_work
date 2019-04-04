@@ -12,6 +12,10 @@
 	margin-left: auto;
 	display: block;
 }
+.pad-to-20{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 /* style for account creation app */
 
@@ -371,12 +375,328 @@
 
 #no-of-jobs{
   padding: 0px;
-}
-
-.section-pad-0{
+}.section-pad-0{
+  padding: 10px;
   background: #000;
   color: #fff;
 }
+
+
+/* This section for how it works */
+.member-container{
+  padding-top: 20px;
+  padding-bottom: 5px;
+}.button-container{
+  padding-top: 15px;
+}.pad-right-7{
+  padding-right: 7px;
+  padding-left: 0px;
+}.pad-left-7{
+  padding-right: 0px;
+  padding-left: 7px;
+}
+.how-it-works,
+.how-it-works:hover,
+.how-it-works:focus,
+.how-it-works:active
+{
+  border: 1px solid #fff; 
+  margin:0px; 
+  padding:7px;
+  background: #fff;
+  color: #000;
+}
+.post-a-job-search,
+.post-a-job-search:hover,
+.post-a-job-search:focus,
+.post-a-job-search:active
+{
+  border: 1px solid #fff; 
+  margin:0px; 
+  padding:7px;
+  background: #000;
+  color: #fff;
+}.light-black{
+  color: #b0b0b0;
+}.each-how-it-works{
+  border-top: 3px solid #007cb4;
+}.each-how-it-works:hover{
+  color: #007cb4;
+   box-shadow: 0px 0px 5px 1px rgba(217,217,217,0.75);
+  -o-box-shadow: 0px 0px 5px 1px rgba(217,217,217,0.75);
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(217,217,217,0.75);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(217,217,217,0.75);
+  cursor: pointer;
+}.container-how-it-works{
+  margin-top: 60px;
+}
+
+.margin-top-60{
+  margin-top: 60px;
+}
+.margin-top-30{
+  margin-top: 30px;
+}
+
+.margin-bottom-60{
+  margin-bottom: 60px;
+}
+
+
+/* find the latest jobs */
+#find-the-latest-job{
+  padding-top: 0px;
+}
+.apply-now,
+.view-jobs
+{
+border-top: 1px solid #eee;
+border-right: 1px solid #eee;
+text-align: center;
+font-weight: 600;
+padding: 12px;
+cursor: pointer;
+}.apply-now p,
+.view-jobs p
+{
+  margin-bottom: 0px;
+}.margin-top-20{
+  margin-top: 20px;
+}
+.apply-now:hover,
+.view-jobs:hover
+{
+background: #007cb4;
+color: #fff;
+cursor: pointer;
+}
+.margin-top-10{
+  margin-top: 10px;
+}
+.love-job{
+  border-top: 1px solid #eee;
+  text-align: center;
+  padding-top: 10px;
+}
+.love-job i{ 
+  border-radius: 50%;  
+  padding: 5px 5px;
+  border: 1px solid #eee;
+  cursor: pointer;
+}
+.love-job i:hover{ 
+  background: #007cb4;
+  color: #fff;
+}.each-container-latest-job:hover{
+  cursor: pointer;
+   box-shadow: 0px 0px 5px 1px rgba(217,217,217,0.75);
+  -o-box-shadow: 0px 0px 5px 1px rgba(217,217,217,0.75);
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(217,217,217,0.75);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(217,217,217,0.75);
+}.browse-all-jobs{
+  cursor: pointer;
+}.p-margin-bottom-0{
+  margin-bottom: 0px;
+}
+.red-color{
+  color: red;
+}.type-of-role{
+  border-radius: 10px;
+  background: #007cb4;
+}.other-skills{
+  background: #007cb4;
+  color: #FFF;
+  padding: 6px 15px;
+  border-radius: 20px;
+  
+}.job-skills{
+  background: #f1f0f0;
+  color: #b0b0b0;
+  padding: 6px 15px;
+  border-radius: 20px;
+  margin-right: 15px;
+}.profile-color{
+  color: #f1f0f0;
+}
+
+
+/* Different Kind of jobs */
+.job-icons{
+  border-radius: 50%;
+  height: 60px !important;
+  width: 60px !important;
+  text-align: center;
+  padding-top: 17px;  
+}.job-icons i{
+  font-size: 25px;
+
+}.kind-of-jobs{
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+ 
+  padding-top: 30px;
+  padding-bottom: 30px;
+}.kind-of-jobs:hover{
+  color: #d38b8b;
+  cursor: pointer;
+   box-shadow: 0px 0px 5px 1px rgba(217,217,217,0.75);
+  -o-box-shadow: 0px 0px 5px 1px rgba(217,217,217,0.75);
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(217,217,217,0.75);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(217,217,217,0.75);
+}
+.kind-of-jobs2{
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+   border-top: 1px solid #eee;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}.kind-of-jobs2:hover{
+  color: #d38b8b;
+  cursor: pointer;
+   box-shadow: 0px 0px 5px 1px rgba(217,217,217,0.75);
+  -o-box-shadow: 0px 0px 5px 1px rgba(217,217,217,0.75);
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(217,217,217,0.75);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(217,217,217,0.75);
+}
+.border-right{
+  border-left: 1px solid #eee;
+}
+
+
+/* featured candidate */
+.candidate-price{
+  position: absolute;
+  right: 0px;
+}.candidate-availability{
+  color: #007cb4;
+}.star-color{
+  color: #9fcf32;
+  font-size: 12px;
+}.star-rating{
+  color: #fff;
+  background: #9fcf32;
+}.candidate-availability2{
+  color: #b42a00;
+}
+
+
+/* Post a job section  */
+.post-a-job-section h2{
+ font-size: 25px;
+}.post-job-caption{
+  margin-bottom: 0px !important;
+  color: #007cb4;
+}.margin-top-10{
+  margin-top: 10px;
+}.company-details{
+  padding-left: 20px;
+}.margin-bottom-30{
+  margin-bottom: 30px;
+}
+.learn-more-button,
+.learn-more-button:hover,
+.learn-more-button:focus,
+.learn-more-button:active
+{
+  padding:10px 14px;
+  background: #000;
+  color: #fff;
+  margin-left: 15px;
+}
+.post-a-job-search2,
+.post-a-job-search2:hover,
+.post-a-job-search2:focus,
+.post-a-job-search2:active
+{
+  padding:10px 14px;
+  background: #007cb4;
+  color: #fff;
+
+}
+
+
+
+
+
+/* the first footer */
+.footer-one{
+  background: #000;
+  padding:0px;
+  color: #fff;
+}.form-controller{
+  height: 50px;
+}.footer-one h2{
+  color: #fff;
+}
+.subscribe-button,
+.subscribe-button:hover,
+.subscribe-button:focus,
+.subscribe-button:active
+{
+  background: #007cb4;
+  color: #fff;
+  border: 2px solid #fff;
+  height: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
+}.foot-color p{
+  color: #b0b0b0;
+  cursor: pointer;
+}.padding-bottom-30{
+  padding-bottom: 30px;
+}.padding-bottom-60{
+  padding-bottom: 60px;
+}
+
+
+
+
+/* The dashboard section */
+.dashboard-profile{
+  background: #000;
+  color: #fff;
+  padding: 20px;
+}.padding-bottom-20{
+  padding-bottom: 20px;
+}
+.upload-dashboard,
+.upload-dashboard:hover,
+.upload-dashboard:focus,
+.upload-dashboard:active
+{
+  background: #eee;
+  color: #999;
+}.manage-account{
+  font-size: 28px;
+}
+.dashboard-logout,
+.dashboard-logout:hover,
+.dashboard-logout:focus,
+.dashboard-logout:active
+{
+  background: #e6005c;
+}.dashboard-icon-box{
+  background: #eee;
+  color: #e6005c;
+}
+.dashboard-icon-box-yellow{
+  background: #eee;
+  color: #cccc00;
+}
+.dashboard-icon-box-purple{
+  background: #eee;
+  color: #6600cc;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* Medical-statistics style */

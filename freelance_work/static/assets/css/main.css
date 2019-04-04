@@ -1212,10 +1212,10 @@ a.accordion-toggle i {
 }
 
 #footer {
-    background: none repeat scroll 0 0 #2E2E2E;
-    border-top: 5px solid #007cb4;
+    background: #000;
+    border-top: 1px solid #393939;
     height: 84px;
-    margin-top: 120px;
+   
 }
 
 .footer_left {

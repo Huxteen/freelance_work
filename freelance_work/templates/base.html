@@ -37,7 +37,7 @@
                 <div class="row">
                     <div class="col-sm-6 col-xs-12">
                         <div class="top-number">
-                            <span class="p-color">Welcome to FreelanceWork</span>
+                            <span class="p-color">Welcome to lanceWork</span>
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12">
@@ -103,7 +103,7 @@
                     {% if user.is_authenticated %}
 
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Profile&nbsp;<i class="fa fa-angle-down"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages&nbsp;<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Profile</a></li>
                                 <li><a href="#">Settings</a></li>
@@ -156,9 +156,64 @@
 {% block content %}
 
 {% endblock %}
-<section >
+
+
+<section class="footer-one">
     <div class="container" >
-          
+        <div class="col-md-6">
+            <h2>Subscribe to Newsletter</h2>
+            <p class="light-black"><i class="fa fa-check-circle red-color"></i>&nbsp;&nbsp;
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+
+        <div class="col-md-6 margin-top-30">
+            <div class="input-group col-md-12">
+                <input type="text" class="form-control col-md-12 form-controller"  placeholder="Your Email Address...">
+                <span class="input-group-btn">
+                    <button class="btn btn-default subscribe-button" type="button">Subscribe!</button>
+                </span>
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+
+    </div>
+<div style="padding-top: 1px; background: #393939; margin-top: 10px;"></div>
+    <div class="container margin-top-30 padding-bottom-30">
+        
+        <div class="col-md-4">
+            <h2>LanceWork</h2>
+            <p class="light-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                
+                </p>
+
+        </div>
+        <div class="col-md-2 foot-color">
+        <h2>About</h2>
+        <p >Login</p>
+        <p>My Account</p>
+        <p>Contact</p>
+        <p>Privacy </p>
+        <p>Term of Use </p>
+
+
+        </div>
+        <div class="col-md-3 foot-color">
+            <h2>For Company</h2>
+            <p>Browse Freelancer</p>
+            <p>Post a Job</p>
+            <p>Post a project</p>
+            <p>Pricing Plan </p>
+        </div>
+        <div class="col-md-3 foot-color">
+            <h2>For Candidates</h2>
+            <p>Browse Jobs</p>
+            <p>Job Alerts</p>
+            <p>Applied Job</p>
+            <p>Bookmark </p>
+        </div>
     </div>
 </section>
 
@@ -167,12 +222,12 @@
 
 
  
-<div class="container-fluid">
-    <footer id="footer" class="midnight-blue">
+<div class="container-fluid" >
+    <footer id="footer" style="background: #000 !important" class="midnight-blue">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    &copy; 2019 <a target="_blank" href="{% url 'home' %}" style="color: #fff;" title="Good Health">Good Health</a>.
+                    &copy; 2019 <a target="_blank" href="{% url 'home' %}" style="color: #fff;" title="LanceWork">LanceWork</a>.
                     All Rights Reserved.
                 </div>
             

@@ -4,28 +4,87 @@
 
 {% block content %}
 {% load static %}
-<section style="background: #eee;">
+
+
+<section class="dashboard-profile"> 
     <div class="container">
-        <div class="jumbotron">
-            <h1 class="display-3">Hello, {{user.email|capfirst}}!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-                featured content or information. 
-                <p>First Name: &nbsp;<strong>{{user.first_name}}</strong></p>
-                <p>Last Name: &nbsp;<strong>{{user.last_name}}</strong></p>
-                <p>Is Staff: &nbsp;<strong>{{user.is_staff}}</strong></p>
-                <p>Is Active: &nbsp;<strong>{{user.is_active}}</strong></p>
-                <p>Date Joined: &nbsp;<strong>{{user.date_joined}}</strong></p>
-                <p>Last Login: &nbsp; <strong>{{user.last_login}}</strong></p>
-                <p>Email Address: &nbsp;<strong>{{user.email|capfirst}}</strong></p>
-                <p>Password: &nbsp;<strong>{{user.password}}</strong></p>
-                <p>Full Name: &nbsp;<strong>{{user.get_full_name}}</strong></p>
-                <p>Profile Pics: &nbsp;<strong>{{user.avater}}</strong></p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-            </p>
+
+        <span>My Account</span>
+        <span class="float-right">{{user.email}} / My Account</span>
+
+    </div>
+</section>
+
+
+
+
+
+<section>
+    <div class="container">
+        <div class="col-md-3" >
+            <div class="col-md-12 pad-md-0 add-border each-container-latest-job">
+                <div class="col-md-12 margin-top-20 padding-bottom-20">
+                    <div class="col-md-12 pad-md-0 text-center">
+                        <i class="fa fa-circle profile-color" style="font-size: 100px;"></i>
+                    </div>
+
+                    <div class="col-md-12 margin-top-15">
+                        <button class="btn btn-primary btn-xs center-block upload-dashboard">UPLOAD PHOTO</button>
+                    </div>
+
+                    <div class="col-md-12 pad-md-0 text-center">
+                    
+                        <strong><p class="p-margin-bottom-0 margin-top-15">Rock Williams</p></strong>
+                        <strong><small class="light-black">PHP Developer</small></strong>
+                        <p class="candidate-availability2">Available Full Time <i class="fa fa-edit"></i></p>
+                    </div>
+                </div>
+
+
+                
+
+            </div>
         </div>
+
+
+
+        <div class="col-md-9">
+            <span class="manage-account">Manage Your Account</span>
+            <a class="dropdown-item" href="javascript:{document.getElementById('js-logout').submit()}" onClick=""><button class="btn btn-primary btn-xs center-block dashboard-logout float-right">LOGOUT</button></a>
+
+
+            <div class="col-md-12 pad-md-0 margin-top-30">
+
+                <div class="col-md-4">
+                    <div class="col-md-12 kind-of-jobs2 add-border text-center">
+                        <div class="job-icons add-border dashboard-icon-box-purple center-block"> <i class="fa fa-graduation-cap"></i> </div>
+                        <h5>Applied Jobs</h5>
+                        <big class="light-black"><strong>15</strong></big>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="col-md-12 kind-of-jobs2  add-border text-center">
+                        <div class="job-icons add-border dashboard-icon-box-yellow center-block"> <i class="fa fa-graduation-cap"></i> </div>
+                        <h5>Task Bid Won</h5>
+                        <big class="light-black"><strong>10</strong></big>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="col-md-12 kind-of-jobs2  add-border text-center">
+                        <div class="job-icons add-border dashboard-icon-box center-block"> <i class="fa fa-heart"></i> </div>
+                        <h5>Favourites</h5>
+                        <big class="light-black"><strong>20</strong></big>
+                    </div>
+                </div>
+
+
+               
+            </div>
+
+        </div>
+
+
+
     </div>
 </section>
 
