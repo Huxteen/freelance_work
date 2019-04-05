@@ -1090,6 +1090,22 @@ cursor: pointer;
   padding : 10px;
 }
 
+.margin-bottom-xs{
+  margin-bottom: 10px;
+}.text-center-xs{
+  text-align: center;
+}
+
+.post-a-job, 
+.post-a-job>a:hover, 
+.post-a-job>a:focus, 
+.post-a-job>a:active{
+    margin-bottom: 15px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;  
+    text-align: center; 
+}
+
 
 }
 

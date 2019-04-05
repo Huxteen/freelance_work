@@ -1,15 +1,13 @@
-{% comment %} The Images used in this project are free stock photos {% endcomment %}
 
-
-
-
-Technologies
-
+Technologies/Framework
 python (Django)
 HTML
 CSS
 BOOSTRAP
 JAVASCRIPT
+Git/GitHub/Heroku
+Postgress
+Mysql
 
 
 

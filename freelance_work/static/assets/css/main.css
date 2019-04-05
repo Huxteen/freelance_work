@@ -339,7 +339,8 @@ input.search-form:hover {
     border-radius: 4px !important;
     padding-left: 20px !important;
     padding-right: 20px !important;
-    font-size: 12px !important; 
+    font-size: 12px !important;
+    text-align: center; 
 }
 .post-a-task,
 .post-a-task>a:hover, 
@@ -349,9 +350,10 @@ input.search-form:hover {
     background-color: #000 !important;
     color: #fff !important;
     border-radius: 4px !important;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    /* padding-left: 20px !important;
+    padding-right: 20px !important; */
     font-size: 12px !important; 
+    text-align: center;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu {
