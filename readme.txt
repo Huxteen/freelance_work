@@ -1,6 +1,8 @@
 {% comment %} The Images used in this project are free stock photos {% endcomment %}
 
 
+
+
 Technologies
 
 python (Django)
