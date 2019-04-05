@@ -1,12 +1,16 @@
 # Development-Enviroment =  Visual Studio Code
-# Python == 3.6.8
-# Django == 2.0.7
+python==3.6.8
+django==2.0.7
 
 # heroku/7.22.9 win32-x64 node-v11.10.1
 
 
 # https://guarded-springs-76765.herokuapp.com/ 
 # https://git.heroku.com/guarded-springs-76765.git
+
+
+# https://safe-badlands-66005.herokuapp.com/ 
+# https://git.heroku.com/safe-badlands-66005.git
 
 #python first
 #django second
